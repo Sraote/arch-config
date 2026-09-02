@@ -1,0 +1,106 @@
+[bar]
+bg = "transparent"
+button-variant = "icon-square"
+
+[[bar.layout]]
+monitor = "*"
+show = true
+left = [
+    "media",
+    "cava",
+    "systray",
+]
+center = ["clock"]
+right = [
+    "network",
+    "volume",
+    "cpu",
+    "ram",
+]
+
+[styling]
+scale = 0.9599999785423279
+rounding = "md"
+theming-monitor = "DP-3"
+
+[styling.palette]
+bg = "#282828"
+surface = "#3c3836"
+elevated = "#504945"
+fg = "#ebdbb2"
+fg-muted = "#d5c4a1"
+primary = "#83a598"
+red = "#fb4934"
+yellow = "#fabd2f"
+green = "#b8bb26"
+blue = "#8ec07c"
+
+[modules.battery]
+icon-show = false
+label-show = false
+button-bg-color = "transparent"
+
+[modules.cava]
+bars = 30
+stereo = true
+monstercat = 9.99999999999998
+low-cutoff = 1000
+high-cutoff = 15000
+style = "wave"
+direction = "mirror"
+color = "fg-default"
+button-bg-color = "transparent"
+border-show = true
+border-color = "fg-default"
+
+[modules.clock]
+border-color = "fg-default"
+icon-show = false
+icon-color = "fg-default"
+icon-bg-color = "fg-default"
+label-color = "fg-default"
+button-bg-color = "transparent"
+
+[modules.cpu]
+border-color = "transparent"
+icon-bg-color = "fg-default"
+label-color = "fg-default"
+button-bg-color = "transparent"
+
+[modules.media]
+border-color = "fg-default"
+icon-bg-color = "fg-default"
+label-color = "fg-default"
+button-bg-color = "transparent"
+
+[modules.microphone]
+icon-bg-color = "auto"
+button-bg-color = "transparent"
+
+[modules.network]
+border-color = "auto"
+icon-color = "fg-default"
+icon-bg-color = "transparent"
+label-color = "fg-default"
+button-bg-color = "transparent"
+
+[modules.ram]
+border-color = "fg-default"
+icon-bg-color = "fg-default"
+label-color = "fg-default"
+button-bg-color = "transparent"
+
+[modules.systray]
+icon-scale = 1.2000000476837158
+
+[modules.volume]
+border-color = "transparent"
+icon-color = "fg-default"
+icon-bg-color = "transparent"
+label-color = "fg-default"
+button-bg-color = "transparent"
+
+[[wallpaper.monitors]]
+name = "DP-3"
+fit-mode = "fill"
+wallpaper = "/home/sunny/wallpapers/invisigal-mask.3840x2160.jpg"
