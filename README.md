@@ -1,1 +1,1 @@
-ArchLinux dotfiles and package list
+ArchLinux configs and package list
